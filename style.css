@@ -1,0 +1,332 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 微软雅黑, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color: #000000; */
+}
+
+
+#bgvid {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+/* =====================================hearder-start==================================================== */
+header {
+    display: block;
+    margin: 0;
+    padding: 0 30px 0 50px;
+}
+
+header a {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.nav-h {
+    margin: 50px 0 0;
+    height: 60px;
+    line-height: 60px;
+    font-size: 5em;
+    float: left;
+}
+
+nav ul {
+    display: block;
+    margin: 0;
+    float: right;
+}
+
+.nav-item {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.nav-item a {
+    position: relative;
+    margin: 45px 0 0;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: block;
+    float: right;
+    padding: 0 20px;
+    height: 60px;
+    line-height: 60px;
+    transition: all .1s;
+} 
+
+
+
+.nav-item a:hover {
+    border-radius: 2px;
+    border: 0px solid #000000;
+    background: #f5f4ef;
+    color: #000000;
+} 
+/*===================================== header-end===================================== */
+
+
+/*===================================== body-start===================================== */
+#index-content {
+    position: fixed;
+    display: flex;
+    height:100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    filter: contrast(15);
+}
+
+#index-content p {
+    /* background-color: steelblue; */
+    position: absolute;
+    color: rgb(246, 246, 246);
+    font-size: 6em;
+    letter-spacing: 15px;
+    font-weight: bold; 
+    left: 50px;
+}
+
+.index-content-text-1 {
+    top: 25%;
+}
+
+.index-content-text-2 {
+    top: 35%;
+}
+
+
+.index-content-text-3 {
+    position: absolute;
+    color: #f5f4ef;
+    top: 51%;
+    left: 50px;
+    font-size: 4em;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+/* 很笨的动画 */
+#span-1 {
+    transform: translate(0%, -101%);
+    animation-name: span-blur-1;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes span-blur-1 {
+    0% {
+        opacity: 0;
+    }
+    20%,
+    80% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+#span-1 {
+    transform: translate(0%, -101%);
+    animation-name: span-blur-1;
+    animation-duration: 5s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes span-blur-1 {
+    0% {
+        opacity: 0;
+    }
+    20%,
+    80% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+
+#span-2 {
+    transform: translate(0%, -101%);
+    animation-name: span-blur-2;
+    animation-duration: 8s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes span-blur-2 {
+    0% {
+        opacity: 0;
+    }
+    20%,
+    80% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+#span-3 {
+    transform: translate(0%, -101%);
+    animation-name: span-blur-3;
+    animation-duration:11s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes span-blur-3 {
+    0% {
+        opacity: 0;
+    }
+    20%,
+    80% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+#span-4 {
+    animation-name: span-blur-4;
+    animation-duration: 14s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes span-blur-4 {
+    0% {
+        opacity: 0;
+    }
+    20%,
+    80% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+
+#span-5 {
+    transform: translate(0%, -101%);
+    animation-name: span-blur-5;
+    animation-duration: 17s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes span-blur-5 {
+    0% {
+        opacity: 0; text-decoration: underline;
+    }
+    20%,
+    80% {
+        filter: blur(0px);
+        opacity: 1; text-decoration: underline;
+    } 
+}
+
+
+/*===================================== body-end===================================== */
+
+
+
+/* =====================================contact-start===================================== */
+#contact {
+    position: fixed;
+    bottom: 32px;
+    height: 50px;
+    padding: 0 50px 0 40px;
+}
+
+#contact ul {
+    position: fixed;
+    left: 50px;
+    bottom: 32px;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+#contact li {
+   
+    margin: 0;
+    padding: 4px 0;
+    float: left;
+    list-style: none;
+}
+
+#contact li a {
+    display: block;
+    padding: 0 10px;
+}
+
+.button {
+    font-size: 1.5em;
+    font-weight: bold;
+    right: 50px;
+    position: fixed;
+    bottom: 32px;
+    color: aliceblue;
+    border: 2px solid #f5f4ef;
+    border-radius: 100px;
+    padding: 10px 22px;
+    transition: all .3s;
+}
+
+.button:hover {
+    opacity: 1;
+    border: 2px solid #000000;
+    background: #f5f4ef;
+    color: #000000;
+}
+
+
+/*===================================== contact-end =====================================*/
+
+/* =====================================footer-start===================================== */
+footer {
+    padding: 2px 50px 5px;
+    height: auto;
+    text-align: left;
+}
+
+.footer-p {
+    color: rgb(0, 0, 0);
+}
+
+#copyright {
+    text-align: center;
+    color: rgb(166, 164, 164);
+}
+/* =====================================footer-end===================================== */
+
+/* ==================================================================================== */
+/* ================================ special =========================================== */
+/* ==================================================================================== */
+
+/* ================================ special-header ===================================== */
+
+
+
+/* ================================ special-footer ===================================== */
+
+/* ================================ special-others ===================================== */
+
