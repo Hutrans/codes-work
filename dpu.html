@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style-other.css" />
+        <title>DPU</title>
+    </head>
+    
+    <body>
+        <header id="sort-header" >
+            <h3 class="nav-h"><a href="index.html">首页</a></h3>
+            <nav>
+                <ul>      
+                    <!-- <li class="nav-item">
+                        <label for="menu-response"><img id="menu" src="./img/系统菜单.png" alt="菜单" height="10px"></label>
+                        <input type="checkbox" id="menu-response">
+                    </li>             -->
+                    <li class="nav-item">
+                        <a href="dpu.html">DPU</a>  
+                    </li>
+                    <li class="nav-item">
+                        <a href="gpu.html">GPU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cpu.html">CPU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="分类法.html">分类法</a> 
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <article class="article">
+            
+            <div class="cpu-1stpic">
+                <img src="./img/DPU.jpg" alt="DPU" width=1080PX>
+            </div>
+            <h1 class="title ">数据处理器<br>Data Processing Unit</h1>
+            <!-- 图片 + 文字环绕 -->
+           
+            <div>
+                <p class="article-pu">DPU是 Data Processing Unit的简称，它是最新发展起来的专用处理器的一个大类，是继CPU，GPU之后，数据中心场景中的第三颗重要的算力芯片，为高带宽、低延迟、数据密集的计算场景提供计算引擎。</p>
+            </div>
+            <!-- 发展史 全文字 -->
+            <div>
+                <h1 class="title-2nd">DPU的出现绝非偶然</h1>
+                <ul>
+                    <li>
+                        <p class="article-pu">第一阶段，“史前”阶段。在CPU之前的年代，CPU的处理速度和10的输入输出速度基本匹配，因此也谈不上以谁为中心。10部分负责数据的输入和输出，核心的计算模块负责具体的计算。</p>
+                    </li>
+                    <li>
+                        <p class="article-pu">第二阶段，CPU迅猛发展阶段。CPU发明后，通过标准的指令集，解耦了软件和硬件。CPU开始性能狂飙，而内存和外存的性能提升却非常有限。这时候，我们不得不设计非常多层级的存储hhierarchy来弥补10(内存也可以当做CPU的数据10)和CPU之间巨大的性能差距。这样，以CPU的计算为中心成为了整个计算机最核心的架构。</p>
+                    </li>
+                    <li>
+                        <p class="article-pu">第三阶段，CPU瓶颈+数据爆炸阶段。再进一步的，时间来到了大数据时代。网络带宽升级到百Gbps以上，存储更换成更高IOPS的NVMe SSD。可预见的未来，网络和存储的带宽还会持续的增加，暂时看不到停顿的迹象。而与此同时，CPU的性能却陷入了停滞。这样，以CPU计算为中心的版权所架构越来越无法满足计算性能的要求，计算机架构未来会逐渐演化成以数据为中心的架构。</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 定位 图文 + 链接-->
+            <div >
+                <h1 class="title-2nd">DPU的定位</h1>
+                <!-- <img src="" alt=""> -->
+                <ul>
+                    <li>
+                        <p class="article-pu">把服务器看做是一个系统，那么这个复杂的系统必然呈现出某种分层的架构；未来几年的云计算数据中心都具有更加庞大的规模。我们可以主要说，由于（1）复杂的分层的系统、(2）CPU的性能瓶颈、(3)宏观的超大规模以及(4)基于特定场景服务，使得整个系统要想持续不断的提升性能，就需要不断的把Workload从软件持续不断的卸载到硬件加速。</p>
+                    </li>
+                    <li>
+                        <p class="article-pu">DPU定位为完成性能敏感的并且通用的工作任务加速处理，更好的支撑CPU、GPU的上层业务。DPU完成基础工作任务，构建强大的基础设施层，服务云计算上层业务的快速创新。</p>
+                    </li>
+                    <li>
+                        <p class="article-pu">DPU具有如此强大的功能，再叫DPU是不是已经不太准确了？我给起了个新的名字，IPU，Infrastructure Processing Unit，基础设施处理单元。</p>
+                    </li>
+                </ul>
+            </div>
+        </article>
+
+        <footer class="special-footer">
+            <p class="footer-p">Hu bfsu 202120200094 | <span>  @bfsu</span></p>
+            <hr><p class="footer-p">中国</p>
+            <p id="copyright">@Bfsu 北京外国语大学 | Beijing Foreign Studies University | 欢迎报考翻译硕士 | 天天写作业</p>
+        </footer> 
+    </body>
+</html>

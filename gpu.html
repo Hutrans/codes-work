@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style-other.css" />
+        <title>GPU</title>
+    </head>
+    
+    <body>
+        <div id="box">
+            <header id="sort-header" >
+                <h3 class="nav-h"><a href="index.html">首页</a></h3>
+                <nav>
+                    <ul>      
+                        <!-- <li class="nav-item">
+                            <label for="menu-response"><img id="menu" src="./img/系统菜单.png" alt="菜单" height="10px"></label>
+                            <input type="checkbox" id="menu-response">
+                        </li>             -->
+                        <li class="nav-item">
+                            <a href="dpu.html">DPU</a>  
+                        </li>
+                        <li class="nav-item">
+                            <a href="gpu.html">GPU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="cpu.html">CPU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="分类法.html">分类法</a> 
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <article class="article">
+                <!-- 图片一张 -->
+                <div class="cpu-1stpic">
+                    <img src="./img/GPU.jpg" alt="GPU" width="1080PX">
+                </div>
+                <!-- 标题 -->
+                <h1 class="title" >图形处理器<br>Graphics Processing Unit</h1>
+                <div>
+                    <p class="article-pu">图形处理器(Graphics Processing Unit，缩写：GPU)，又称显示核心、视觉处理器、显示芯片，是一种专门在个人电脑、工作站、游戏机和一些移动设备(如平板电脑、智能手机等 上做图像和图形相关运算工作的微处理器。</p>
+                    <p class="article-pu">GPU使显卡减少了对CPU的依赖，并进行部分原本CPU的工作，尤其是在3D图形处理时GPU所采用的核心技术有硬件T&L(几何转换和光照处理)、立方环境材质贴图和顶点混合、纹理压缩和凹凸映射贴图、双重纹理四像素256位渲染引擎等，而硬件T&L技术可以说是GPU的标志。</p>
+                </div>
+                <!-- 标题 -->
+                <h1 class="title-2nd">发展史</h1>
+                <div>
+                    <ul>
+                        <li>
+                            <h2 class="title-pu-2">上世纪80年代</h2>
+                            <p class="title-pu-2-text">世界上第一台个人电脑IBM5150于1981年由IBM公司发布，这台PC搭载了黑白显示适配器（monochrome display adapter，MDA）和彩色图形适配器（color graphics adapter，CGA），这便是最早的图形显示控制器。后来，IBM又推出EGA（enhanced graphics adapter），并于1987年提出了VGA（video graphics array）标准，它是IBM为PS/2系统中的Model50、60和80机型所内建的显示系统，VGA在文字模式下可支持720×400分辨率，绘图模式下可支持640×480×16色和320×200×256色输出，VGA标准一直沿用至今。为了保证兼容性，当今的显卡依然会遵循VGA标准。</p>
+                        </li>
+                        <li>
+                            <h2 class="title-pu-2">九十年代</h2>
+                            <p class="title-pu-2-text">从MDA到VGA，图形图像的运算都由CPU来完成，图形卡的作用主要是将其显示出来。1991年，S3 Graphics推出的“S3 86C911”，正式开启2D图形硬件加速时代，它能进行字符、基本2D图元和矩形的绘制。到了1995年，几乎所有的显卡都具备2D加速功能，2D图形接口GDI、DirectFB等也都相继出现，并延续至今。
+                                1994年，3DLabs发布的Glint300SX是第一颗用于PC的3D图形加速芯片，它支持高氏着色、深度缓冲、抗锯齿、Alpha混合等特性，开启了显卡的3D加速时代，然而这个阶段的显卡大多没有执行统一的标准，加速功能也不尽相同，直到NVIDIA推出GeForce256，它整合了硬件变换和光照（transform and lighting，T&L）、立方环境材质贴图和顶点混合、纹理压缩和凹凸映射贴图、双重纹理四像素256位渲染引擎等，并且兼容DirectX和OpenGL，被称为世 界上第一款GPU。硬件T&L的引入，极大减轻了CPU的负担，是这一时代GPU的标志。</p>
+                        </li>
+                        <li>
+                            <h2 class="title-pu-2">21世纪初</h2>
+                            <p class="title-pu-2-text">2001年微软发布DirectX 8，提出了渲染单元模式（shader model） 的概念，根据操作对象的不同引入了2种shader，分别是顶点着色器（vertex shader）和像素着色器（pixel shader），从此，硬件T&L被抛弃，进入 shader时代，此时的GPU架构是固定管线。固定管线架构持续多年，直到微软推出DirectX 10。shader不再扮演固定的角色，每一个shader都可以处理顶点和像素，这就是统一渲染着色器（unified shader），
+                                它的出现避免了固定管线中顶点着色器和像素着色器资源分配不合理的现象发生，使得GPU的利用率更高。第一款采用统一渲染架构的GPU是ATI在2005年与微软合作的游戏主机XBOX 360上采用的Xenos，它是ATI第一代统一渲染架构，而真正具有影响力的，是NVIDIA在2006年发布的GeForce 8800 GTX（核心代号G80），它是第一款采用统一渲染架构的桌面GPU，其架构影响了日后的数代产品，是一款极具划时代意义的GPU。</p>
+                        </li>
+                        <li>
+                            <h2 class="title-pu-2">近几年</h2>
+                            <p class="title-pu-2-text">2011年TESLA GPU计算卡发布，标志着NVIDIA将正式用于计算的GPU产品线独立出来，凭借着架构上的优势，GPU在通用计算及超级计算机领域，逐渐取代CPU成为主角。</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 标题 -->
+                <h1 class="title-2nd">GPU的应用</h1>
+                <div>
+                    <div class="for-align">
+                        <h2 class="title-pu-2">GPU应用之一：追求极致的娱乐与性能平衡</h2>
+                        <p class="title-pu-2-text-bottom">全球游戏市场蓬勃发展，带动
+                            PC出货量上升。在多种PC当中，游戏本受到的关注
+                            最多。游戏本的出货的上升在较大的程度上是由于支持光追技
+                            术的游戏本增加。但是高性能的GPU相对笨重且功耗大，未来笔记本
+                            会向轻薄化与强性能方向发展。</p>
+                    </div>
+                    <!-- <div class="img-right">
+                        <img  src="./img/游戏.png" alt="游戏" width="350px">
+                    </div> -->
+                </div>
+
+                <div>
+                    <div>
+                        <h2 class="title-pu-2">GPU应用之二：人工智能与深度学习</h2>
+                        <p class="title-pu-2-text-bottom">人工智能已经成为经济发展的助推器。人工智能起始于深度学习。
+                        深度学习分为“训练”与“推理”两个过程。在“训练”阶段，GPU由Al 于其多核特性，适用于并行计算；
+                        在“推理”阶段，由于目前FPGA与ASIC的技术尚未成熟，GPU仍是主要芯片之一。</p>
+                    </div>
+                    <!-- <div class="img-right">
+                        <img src="./img/AI&DL.png" alt="人工智能" width="350px"> 
+                    </div>    -->
+                </div>
+
+                <div class="for-align">
+                    <div class="text-bottom" >
+                        <h2 class="title-pu-2">GPU应用之三：自动驾驶</h2>
+                        <p class="title-pu-2-text-bottom">自动驾驶技术已经成为整个汽车产业的最新发展方向
+                            ，市场空间广阔。目前，全球多个GPU公司已经在自动驾驶方面布局。GPU由于
+                            其并行计算的优势能较好地处理图像与媒体信息。目前GPU是自动驾驶领域的主流方案。</p>
+                    </div>
+                    <!-- <div class="img-right">
+                        <img  src="./img/自动驾驶.png" alt="auto-driving"width="350px">
+                    </div> -->
+                </div>
+            </article>
+
+            <footer class="special-footer">
+                <p class="footer-p">Hu bfsu 202120200094 | <span>  @bfsu</span></p>
+                <hr><p class="footer-p">中国</p>
+                <p id="copyright">@Bfsu 北京外国语大学 | Beijing Foreign Studies University | 欢迎报考翻译硕士 | 天天写作业 </p>
+            </footer> 
+        </div>
+    </body>
+</html>
